@@ -37,6 +37,9 @@ class SignInViewController: UIViewController {
                 alertController.addAction(defaultAction)
                 self.present(alertController, animated: true, completion: nil)
             }
+            
+            guard let user = user else { return }
+            
         }
     }
     

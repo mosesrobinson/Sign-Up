@@ -14,7 +14,7 @@
 		3936091C22116C74009AC1C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3936091A22116C74009AC1C7 /* LaunchScreen.storyboard */; };
 		39360924221171C9009AC1C7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39360923221171C9009AC1C7 /* RegisterViewController.swift */; };
 		3936092622117565009AC1C7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936092522117565009AC1C7 /* HomeViewController.swift */; };
-		39CB015B221A8E6B00D48D37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39CB015A221A8E6B00D48D37 /* GoogleService-Info.plist */; };
+		39E864A522507D1300F8CDB3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39E864A422507D1300F8CDB3 /* GoogleService-Info.plist */; };
 		AFF2182B9126FBA492C89B87 /* Pods_Sign_Up_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E9BED998740082F7AA6910 /* Pods_Sign_Up_App.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 		3936091D22116C74009AC1C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39360923221171C9009AC1C7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		3936092522117565009AC1C7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		39CB015A221A8E6B00D48D37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		39E864A422507D1300F8CDB3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A61A31985A8995BCE55A1B03 /* Pods-Sign Up App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign Up App.release.xcconfig"; path = "Target Support Files/Pods-Sign Up App/Pods-Sign Up App.release.xcconfig"; sourceTree = "<group>"; };
 		D3E9BED998740082F7AA6910 /* Pods_Sign_Up_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sign_Up_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96C0C3027352CB7BE7D229B /* Pods-Sign Up App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sign Up App.debug.xcconfig"; path = "Target Support Files/Pods-Sign Up App/Pods-Sign Up App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -52,7 +52,6 @@
 				D96C0C3027352CB7BE7D229B /* Pods-Sign Up App.debug.xcconfig */,
 				A61A31985A8995BCE55A1B03 /* Pods-Sign Up App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,7 +84,7 @@
 				3936091822116C74009AC1C7 /* Assets.xcassets */,
 				3936091A22116C74009AC1C7 /* LaunchScreen.storyboard */,
 				3936091D22116C74009AC1C7 /* Info.plist */,
-				39CB015A221A8E6B00D48D37 /* GoogleService-Info.plist */,
+				39E864A422507D1300F8CDB3 /* GoogleService-Info.plist */,
 			);
 			path = "Sign Up App";
 			sourceTree = "<group>";
@@ -132,6 +131,7 @@
 				TargetAttributes = {
 					3936090D22116C72009AC1C7 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -159,7 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3936091C22116C74009AC1C7 /* LaunchScreen.storyboard in Resources */,
-				39CB015B221A8E6B00D48D37 /* GoogleService-Info.plist in Resources */,
+				39E864A522507D1300F8CDB3 /* GoogleService-Info.plist in Resources */,
 				3936091922116C74009AC1C7 /* Assets.xcassets in Resources */,
 				3936091722116C72009AC1C7 /* Main.storyboard in Resources */,
 			);
@@ -382,7 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mosesrobinson.Sign-Up-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -401,7 +401,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mosesrobinson.Sign-Up-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

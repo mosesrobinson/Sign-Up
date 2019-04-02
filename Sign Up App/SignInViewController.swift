@@ -40,6 +40,10 @@ class SignInViewController: UIViewController {
             
             guard let user = user else { return }
             
+            // user was made to test whether making a user works.
+            
+            print(user)
+            
         }
     }
     

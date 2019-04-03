@@ -13,6 +13,10 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let userChangeRequest = Auth.auth().currentUser?.createProfileChangeRequest()
+        userChangeRequest?.displayName = "Moses Robinson Two"
+        fullNameLabel.text = userChangeRequest?.displayName
+        
     }
     
     // ACTIONS
